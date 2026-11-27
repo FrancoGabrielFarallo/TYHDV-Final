@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd6566a7435a824d878c4e4f915566e, type: 3}
+  m_Name: Soldier
+  m_EditorClassIdentifier: Assembly-CSharp::MGS2Tanker.Soldier
+  displayName: Soldier
+  maxHealth: 100
+  viewAngle: 40
+  viewRange: 5
+  patrolSpeed: 1.5
+  chaseSpeed: 4
+  searchSpeed: 2.2
+  turnSpeed: 320
+  waypointReachDistance: 0.2
+  waitAtWaypoint: 2
+  faceWaypointDirection: 1
+  chaseSightRange: 12
+  stoppingDistance: 4
+  loseSightTime: 6
+  searchDuration: 8
+  damagePerShot: 6
+  attackRange: 8
+  burstCount: 3
+  timeBetweenShots: 0.12
+  burstCooldown: 1.1
+  accuracy: 0.55
+  reactionTime: 0.5
+  alertAfterShotDelay: 3
